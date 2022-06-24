@@ -1,0 +1,31 @@
+<div class="popular-list"> 
+    <p>ENTDECKE</p>
+    <nav>
+        <details>
+            <summary>Beliebteste</summary>
+            <ul class="popular-list">
+                <li *ngFor="let entry of popularEntries | keyvalue">
+                    <a> {{ entry.key }} </a>
+                </li>
+            </ul>
+        </details>
+        <details>
+            <summary>Autor</summary>
+            <ul>
+              <li>Platzhalter</li>
+            </ul>
+          </details>
+          <details>
+            <summary>Schlagwort</summary>
+            <ul>
+              <li>Platzhalter</li>
+            </ul>
+          </details>
+          <details>
+            <summary>Erscheinungsdatum</summary>
+            <ul>
+              <li>Platzhalter</li>
+            </ul>
+          </details>
+    </nav>
+</div>
